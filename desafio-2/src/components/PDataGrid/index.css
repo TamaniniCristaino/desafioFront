@@ -1,0 +1,102 @@
+/* .MuiDataGrid-columnHeaders {
+    background: #28344E;
+    color: #fff;
+    outline: none !important;
+}
+
+.MuiDataGrid-menuIcon svg {
+    color: #fff;
+    outline: none !important;
+}
+
+.MuiSvgIcon-fontSizeSmall svg {
+    color: #fff;
+    outline: none !important;
+}
+
+.MuiDataGrid-toolbarContainer {
+    background-color: #19253e;
+    color: #fff
+}
+
+.MuiDataGrid-iconButtonContainer svg {
+    color: #fff;
+    outline: none !important;
+}
+
+.MuiDataGrid-footerContainer {
+    background-color: #19253e;
+    color: #fff
+}
+
+.MuiDataGrid-row {
+    color: #000;
+    font-size: 15px;
+    outline: none !important;
+}
+
+
+
+
+
+.MuiTablePagination-selectLabel {
+    color: #fff !important;
+}
+
+.MuiTablePagination-select {
+    color: #fff !important;
+}
+
+.MuiTablePagination-selectIcon {
+    color: #fff !important;
+}
+
+.MuiTablePagination-displayedRows {
+    color: #fff !important;
+}
+
+.MuiDataGrid-virtualScroller {
+    background: #293c64;
+}
+
+class="MuiTablePagination-selectLabel css-pdct74-MuiTablePagination-selectLabel"
+
+
+
+
+
+*/
+.containerGridform {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+} 
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus {
+    outline: none !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+    outline: none !important;
+}
+
+.MuiTablePagination-actions button {
+    color: #fff !important;
+}
+
+.MuiTablePagination-selectIcon {
+    color: #fff !important;
+}
+
+.MuiTablePagination-displayedRows {
+    color: #fff !important;
+}
+
+.MuiTablePagination-selectLabel {
+    color: #fff !important;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input { 
+    color: #fff !important;
+}
