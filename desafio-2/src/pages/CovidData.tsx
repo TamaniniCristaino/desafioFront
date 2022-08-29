@@ -86,6 +86,7 @@ export default function CovidData() {
           loading={stateLoading}
           rows={stateCovidData}
           idColumn={'ID'}
+          multiSelect
         />
       </Container>
     )

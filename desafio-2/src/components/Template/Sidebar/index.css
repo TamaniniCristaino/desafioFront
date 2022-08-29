@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white
+}
+
+.sidebarHeader span {
+    font-weight: bold;
+}
+
+.sidebarBody {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.cardCountry {
+    height: 120px;
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+
+    background: linear-gradient(326.55deg, #0F1A2C 14.4%, #14233D 46.37%, #182E4F 73.72%, #182E4F 93.07%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    
+}

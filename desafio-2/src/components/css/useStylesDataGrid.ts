@@ -4,7 +4,7 @@ const useStylesDataGrid = makeStyles({
     rootGrid: {
       background: '#111729',
       color: '#fff',
-      border: '1px solid red',
+      border: '1px solid #19B97F',
       borderRadius: 4,
     },
     overlayGrid:{
@@ -40,7 +40,6 @@ const useStylesDataGrid = makeStyles({
       },
       "&.Mui-selected": {
         color: "#FFC700",
-        backgroundColor: 'red',
       },
       "&.Mui-selected:hover": {
         color: "#FFC700",
@@ -48,7 +47,6 @@ const useStylesDataGrid = makeStyles({
       },
       '&:hover': {
         color: "#FFC700",
-        backgroundColor: 'red',
       },
       
     },
@@ -65,6 +63,15 @@ const useStylesDataGrid = makeStyles({
     outlinedGrid: {
       color: '#fff !important',
       fontSize: 20
+    },
+    checkboxInput: {
+      color: '#fff'
+    },
+    filterIcon: {
+      color: '#fff'
+    },
+    menuIconButton: {
+      color: '#fff'
     },
 
     toolbarRootGrid: {

@@ -107,7 +107,6 @@ export default function PDataGrid(props: WPTableGridProps) {
   return (
           <DataGrid
             classes={{
-                // menuIcon: classes.menuIcon,
                 root: classes.rootGrid,
                 columnHeaders: classes.columnHeadersGrid,
                 footerContainer: classes.footerContainerGrid,
@@ -116,6 +115,9 @@ export default function PDataGrid(props: WPTableGridProps) {
                 cell: classes.cellGrid,
                 row: classes.row,
                 // main: classes.main
+                checkboxInput: classes.checkboxInput,
+                sortIcon: classes.filterIcon,
+                menuIconButton: classes.menuIconButton
             }}
               columns={props.columns}
               rows={stateRows}
