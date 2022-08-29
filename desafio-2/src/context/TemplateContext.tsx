@@ -4,7 +4,11 @@ export interface ITemplate {
     stateOpenMenu: boolean,
     setStateOpenMenu: Function,
     statePageSelect: string,
-    setStatePageSelect: Function
+    setStatePageSelect: Function,
+    setStateCountriesSelect: Function,
+    stateCountriesSelect: any,
+    stateCovidData: any, 
+    setStateCovidData: Function
 }
 
 const TemplateContext = createContext({} as ITemplate);

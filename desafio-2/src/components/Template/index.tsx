@@ -8,14 +8,20 @@ import TemplateContext from 'context/TemplateContext'
 
 function Template() {
   const [stateOpenMenu, setStateOpenMenu] = useState(true);
-  const [statePageSelect, setStatePageSelect] = useState('')
+  const [statePageSelect, setStatePageSelect] = useState('');
+  const [stateCountriesSelect, setStateCountriesSelect] = useState([]);
+  const [stateCovidData, setStateCovidData] = useState<any[]>([]);
 
   return (
     <TemplateContext.Provider value={{
       stateOpenMenu,
       setStateOpenMenu,
       setStatePageSelect,
-      statePageSelect
+      statePageSelect,
+      setStateCountriesSelect,
+      stateCountriesSelect,
+      setStateCovidData,
+      stateCovidData
     }}>
       <div className="containerTemplate">
         <div className='templateSidebar'>

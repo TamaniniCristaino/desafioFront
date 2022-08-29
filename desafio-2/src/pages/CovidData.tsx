@@ -1,13 +1,14 @@
 import PDataGrid from "components/PDataGrid";
 import Container from "components/Template/Container";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { GridColDef } from '@mui/x-data-grid';
+import TemplateContext from "context/TemplateContext";
 
 import covidDataAPI from 'api/covidDataAPI';
 
 export default function CovidData() {
+    const { setStateCountriesSelect, stateCountriesSelect, setStateCovidData, stateCovidData } = useContext(TemplateContext);
     const [stateLoading, setStateLoading] = useState(true);
-    const [stateCovidData, setStateCovidData] = useState<any[]>([]);
 
     async function loadApis() {
       const respCovidData: any = await covidDataAPI();
@@ -87,6 +88,11 @@ export default function CovidData() {
           rows={stateCovidData}
           idColumn={'ID'}
           multiSelect
+          multiSelections={stateCountriesSelect}
+          onMultiSelection={(obj: any) => {
+            setStateCountriesSelect(obj);
+            }
+          }
         />
       </Container>
     )
